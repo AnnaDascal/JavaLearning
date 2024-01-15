@@ -1,0 +1,20 @@
+public class NewClassesAndObjects {
+        public static void main(String[] args){
+            Person person1 = new Person();
+            person1.name= "Роман";
+            person1.age=50;
+            person1.speak();
+            Person person2 = new Person();
+            person2.name= "Владимир";
+            person2.age=20;
+            person2.speak();
+        }
+}
+class Person{
+    String name;
+    int age;
+    void speak(){
+        System.out.println("Меня зовут "+name+", мне " +age+"лет");
+    }
+}
+
