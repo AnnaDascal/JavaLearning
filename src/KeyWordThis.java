@@ -1,5 +1,5 @@
 public class KeyWordThis {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Human human1 = new Human();
         human1.setName("Alex");
         human1.setAge(18);
@@ -10,22 +10,28 @@ public class KeyWordThis {
         human2.getInfo();
     }
 }
-class Human{
+
+class Human {
     String name;
     int age;
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public void setAge(int age){
+
+    public void setAge(int age) {
         this.age = age;
     }
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    public int getAge(){
+
+    public int getAge() {
         return age;
     }
-    public void getInfo(){
-        System.out.println(name+", "+age);
+
+    public void getInfo() {
+        System.out.println(name + ", " + age);
     }
 }
